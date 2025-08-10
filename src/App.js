@@ -1,19 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import { MOCK_PROJECTS } from './projects/MockProjects.tsx';
+import React, { useState, useEffect, useRef } from "react";
 
 import Song from "./components/Song.tsx";
 
 function App() {
+  const [song, setSong] = useState("Mayonaka no Door");
   return (
-    <div className="App">
-      <header>
-        <h1>Lyrics</h1>
-        <div class="lyrics">
-          <Song title="Mayonaka no Door"/>
-          <pre>{JSON.stringify(MOCK_PROJECTS, null, ' ')}</pre>
-        </div>
-      </header>
+    <div className="container">
+      <div class="song-container">
+        <header>
+          <h1>Lyrics</h1>
+          <div class="lyrics">
+            {song}
+            <Song title={song}/>
+          </div>
+        </header>
+      </div>
     </div>
   );
 }
