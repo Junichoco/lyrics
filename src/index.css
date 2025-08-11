@@ -16,6 +16,11 @@ body {
   align-items: center;
 }
 
+.button{
+  font-weight: bold;
+  margin: 0 10px 0 10px;
+}
+
 .song-container{
   width:800px;
 }
