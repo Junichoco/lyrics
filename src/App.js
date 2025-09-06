@@ -19,6 +19,7 @@ function App() {
           <div class="navbar">
             <a class="button" onClick={() => changeSong("Mayonaka no Door")}>Mayonaka no Door</a>
             <a class="button" onClick={() => changeSong("Canned Heat")}>Canned Heat</a>
+            <a class="button" onClick={() => changeSong("Natsusora Kakeru Omoi Hana")}>Natsusora Kakeru Omoi Hana</a>
             <a class="button" onClick={() => changeSong("monkey")}>monkey</a>
           </div>
           <div class="lyrics">
