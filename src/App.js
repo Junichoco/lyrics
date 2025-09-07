@@ -23,7 +23,6 @@ function App() {
             <a class="button" onClick={() => changeSong("monkey")}>monkey</a>
           </div>
           <div class="lyrics">
-            {song}
             <Song title={song}/>
           </div>
         </header>
