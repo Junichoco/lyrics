@@ -7,9 +7,9 @@ class Song extends Component {
 
     if(title==="Mayonaka no Door"){
       return(
-        <div class="song">
+        <div className="song">
           <h2>{title}</h2>
-          <p class="lyrics">To you, yes, my love to you<br/>
+          <p className="lyrics">To you, yes, my love to you<br/>
           Yes, my love to you, you, to you<br/>
           私は私 貴方は貴方と<br/>
           昨夜言ってた そんな気もするわ<br/>
@@ -65,9 +65,9 @@ class Song extends Component {
     }
     else if(title==="Canned Heat"){
       return(
-        <div class="song">
+        <div className="song">
           <h2>{title}</h2>
-          <p class="lyrics">You know this boogie is for real...<br/>
+          <p className="lyrics">You know this boogie is for real...<br/>
 
             I used to put my faith in worship<br/>
             But then my chance to get to Heaven slipped<br/>
@@ -160,80 +160,183 @@ class Song extends Component {
     }
     else if (title==="Natsusora Kakeru Omoi Hana"){
       return(
-        <div class="song">
+        <div className="song">
           <h2>{title}</h2>
-          <p class="lyrics">
-            夏の音色隠れてく空　私は手を伸ばすの　君に届けと
+          <p className="lyrics">
+            夏の音色隠れてく空　私は手を伸ばすの　君に届けと<br/>
 
-            焼ける日差しが照らす　影が伸びるその先
-            私まだ見ない振りをしていたの
-            夏のにおいがしてる
-            「早く」焦る心と詰まる言葉　一片の勇気
+            焼ける日差しが照らす　影が伸びるその先<br/>
+            私まだ見ない振りをしていたの<br/>
+            夏のにおいがしてる<br/>
+            「早く」焦る心と詰まる言葉　一片の勇気<br/>
           </p>
         </div>
       )
     }
     else if (title==="Wild Side"){
       return(
-        <div class="song">
+        <div className="song">
           <h2>{title}</h2>
-          <p class="lyrics">
-            Mass ni awaseta lifestyle
-            Muri demo raku surya furi
-            Freedom ouka rifujin fukitobasu skill
-            Kore chigau last minute
-            Merci, au revoir
-            Pride wa jama suru mosa, donc vas-y jete ca
-            Subete try shi konpai, fue ni sukuware halftime
+          <p className="lyrics">
+            Mass ni awaseta lifestyle<br/>
+            Muri demo raku surya furi<br/>
+            Freedom ouka rifujin fukitobasu skill<br/>
+            Kore chigau last minute<br/>
+            Merci, au revoir<br/>
+            Pride wa jama suru mosa, donc vas-y jete ca<br/>
+            Subete try shi konpai, fue ni sukuware halftime<br/>
 
-            Climax yumemi all in
-            Ozzu mienai blurred
-            Kimochi tobitatsu Boeing
-            Issun saki wa saa?
+            Climax yumemi all in<br/>
+            Ozzu mienai blurred<br/>
+            Kimochi tobitatsu Boeing<br/>
+            Issun saki wa saa?<br/>
 
-            Kept walking on the wild side
-            I don't wanna fall asleep throughout my life
-            Sometimes in a Clyde Barrow style
-            Sometimes like a James Bond mind
-            Be wild side
-            Try it
+            Kept walking on the wild side<br/>
+            I don't wanna fall asleep throughout my life<br/>
+            Sometimes in a Clyde Barrow style<br/>
+            Sometimes like a James Bond mind<br/>
+            Be wild side<br/>
+            Try it<br/>
 
-            Censor sareru ka mo if I keep singing
-            Keep rapping, keep telling the truth like Malcom X
-            Shindemo imi aru if it's after this
-            Gomafuazarashi ni ask what's after death?
-            Kokoro no kattou it has to end
-            Demo saa angai sono kimochi ga gem
-            Avant le voyage tell me what's the plan
-            Kimi to odoritai Last Dance
+            Censor sareru ka mo if I keep singing<br/>
+            Keep rapping, keep telling the truth like Malcom X<br/>
+            Shindemo imi aru if it's after this<br/>
+            Gomafuazarashi ni ask what's after death?<br/>
+            Kokoro no kattou it has to end<br/>
+            Demo saa angai sono kimochi ga gem<br/>
+            Avant le voyage tell me what's the plan<br/>
+            Kimi to odoritai Last Dance<br/>
 
-            Kept walking on the wild side
-            I don't wanna fall asleep throughout my life
-            Sometimes in a buffalo style
-            Sometimes like a rock 'n roll mind
-            Be wild side
-            Try it
+            Kept walking on the wild side<br/>
+            I don't wanna fall asleep throughout my life<br/>
+            Sometimes in a buffalo style<br/>
+            Sometimes like a rock 'n roll mind<br/>
+            Be wild side<br/>
+            Try it<br/>
 
-            Climax yumemi all in
-            Ozzu mienai blurred
-            Kimochi tobitatsu Boeing
-            Issun saki wa saa?
+            Climax yumemi all in<br/>
+            Ozzu mienai blurred<br/>
+            Kimochi tobitatsu Boeing<br/>
+            Issun saki wa saa?<br/>
 
-            It is wonderful, my life
-            Please, could you kiss my name?
-            When the music is over
-            Turn off light
-            It was such a sweet time
-            Could you pray for me, my friend?
-            It's starting over time
+            It is wonderful, my life<br/>
+            Please, could you kiss my name?<br/>
+            When the music is over<br/>
+            Turn off light<br/>
+            It was such a sweet time<br/>
+            Could you pray for me, my friend?<br/>
+            It's starting over time<br/>
 
-            Taking over the night
-            Taking over blue time
-            If you heard that screaming shout in your mind
-            Taking over shine
-            Taking over shooting star
-            All I was talking about was music, and that's called jazz!
+            Taking over the night<br/>
+            Taking over blue time<br/>
+            If you heard that screaming shout in your mind<br/>
+            Taking over shine<br/>
+            Taking over shooting star<br/>
+            All I was talking about was music, and that's called jazz!<br/><br/>
           </p>
+        </div>
+      )
+    }
+    else if (title==="Lumiere"){
+      return(
+        <div className="song">
+          <h2>{title}</h2>
+          <p className="lyrics">
+            Dim-dam talé lam, vacarme<br/>
+            S'en va dans Lumi éternam<br/>
+            Et Gustave dôme guardéam<br/>
+            Di-lim, di-li-li-li-lam<br/>
+            Lutece séra, dolilom séram<br/><br/>
+
+            Dim-dim, dam, da-da, dim-dim, dam, da-da, dim-da, li-lam<br/>
+            Dim-dim, dam, da-da, dim-dim, dam, da-da, dim-da, li-lam<br/><br/>
+
+            Dans là-haut<br/>
+            Sera ravi<br/>
+            Les toits à ce Renoir<br/>
+            Griffera<br/><br/>
+
+            Clair-Obscur<br/>
+            Trouble de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture, trouvera sans elle<br/>
+            Clair-Obscur<br/>
+            Trouble de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture, trouvera sans elle<br/><br/>
+
+            Lorien Testard & Alice Duport-Percier<br/>
+            Une vie à peindre<br/>
+            Lorien Testard, Alice Duport-Percier & Victor Borba<br/>
+            Une vie à t’aimer<br/><br/>
+            Lorien Testard, Alice Duport-Percier & Victor Borba<br/><br/>
+
+            Au Clair-Obscur<br/>
+            Trouble rature<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture<br/><br/>
+
+            Clair-Obscur<br/>
+            Trouble de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinturе, trouvera sans elle<br/>
+            Clair-Obscur<br/>
+            Troublе de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture, trouvera sans elle<br/><br/>
+
+            Au Clair-Obscur<br/>
+            Trouble rature<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture<br/><br/>
+
+            Clair-Obscur<br/>
+            Trouble de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture, trouvera sans elle<br/>
+            Clair-Obscur<br/>
+            Trouble de rature, courbera Eiffel<br/>
+            Clair-Obscur<br/>
+            Guardéo peinture, trouvera sans elle<br/>
+          </p>
+        </div>
+      )
+    }
+    else if (title==="God Shattering Star"){
+      return(
+        <div className="song">
+          <h2>{title}</h2>
+            <p className="lyrics">
+              Vu zarruith pa, sa boosh<br/>
+              Ladh′vi, cadath ingrang<br/>
+              Va, chavas ful, bil hurith<br/>
+              Va, thibaath<br/>
+
+              A ria sio va, dhahkoh<br/>
+              Ladh'va, yurki fo ya rihan<br/>
+              Ladh′a dhavi ya tha drahanvi<br/>
+              A dolawa, cathi, hidia<br/><br/>
+
+              A ria thvartoh Fodra<br/>
+              Ven, haling "shattering star"<br/>
+              Il dra, ben haya<br/>
+              Ath'va, vooka, vohl, vi yurida<br/>
+              Ash vi yurida<br/>
+              Im pahkenti<br/>
+              Dhagi cran th'va<br/><br/>
+
+              Va, rihermash Fodra<br/>
+              Shirbash ragi honla<br/><br/>
+
+              Pohuir dathlur kath blatha fo harida, vi<br/>
+              Iyuru odh′va adh′va luith, a ya jishara<br/>
+              Coduwa tharichi hilpo cotra<br/>
+              A riva delth, cathi bi, ha! ha! ha!<br/>
+              Vi hali ha!<br/><br/><br/>
+
+              Dum, pu lahi, du lahi, thvartoh<br/>
+              Ihija, il prathu, ihu fali raf prashari ha<br/>
+            </p>
         </div>
       )
     }
