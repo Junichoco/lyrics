@@ -113,9 +113,9 @@ class Song extends Component {
             I've got this voodoo child enveined on me<br/>
             I'm gonna use my power to ascend<br/>
             You know I've got these running heels to use<br/>
-            So, child, there's no way I'll lose<br/>
+            Sometimes there's no way I'll lose<br/>
             I was born to run and built to last<br/>
-            You'll never see my feet 'cause they move so fast<br/>
+            You never see my feet 'cause they move so fast<br/>
 
             Dance, yeah, hey<br/>
             Nothing left for me to do but dance<br/>
@@ -338,6 +338,136 @@ class Song extends Component {
               Ihija, il prathu, ihu fali raf prashari ha<br/>
             </p>
         </div>
+      )
+    }else if (title==="Say Meow Meow"){
+      return(
+        <div class="song">
+          <h2>{title}</h2>
+          <p className="lyrics">
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            zài ni miàn qián sā gè jiāo
+            āi yōu miāo miāo miāo miāo miāo
+            wode xīn zàng pēng pēng tiào
+            mí liàn shàng ni de huài xiào
+            ni bù shuō ài wo wo jiù miāo miāo miāo
+
+            měi tiān dōu tān liàn zhe ni de hao
+            zhēn xī zài yì qi de měi fēn měi miao
+            ni duì wo duō zhòng yào
+            wo xiang ni bi wo gèng zhī dào
+            ni jiù shì wo de nu zhi jiao
+
+            you shí hou wo lan de xiàng zhī māo
+            pí qi bù hao shí yòu zhāng yá wu zhao
+            ni zong shì wēn róu de
+            néng ba wo de xīn róng huà diào
+            wo xiang yào dāng ni de xiao māo māo
+
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            zài ni miàn qián sā gè jiāo
+            āi yōu miāo miāo miāo miāo miāo
+            wode xīn zàng pēng pēng tiào
+            mí liàn shàng ni de huài xiào
+            ni bù shuō ài wo wo jiù miāo miāo miāo
+
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            wo yào chuān ni de wài tào
+            wén ni shēn shang de wèi dao
+            xiang yào biàn chéng ni de māo
+            lài zài ni huái li shuì zháo
+            měi tiān dōu tān liàn zhe ni de hao
+
+            you shí hou wo lan de xiàng zhī māo
+            pí qi bù hao shí yòu zhāng yá wu zhao
+            ni zong shì wēn róu de
+            néng ba wo de xīn róng huà diào
+            wo xiang yào dāng ni de xiao māo māo
+
+            MERWOWWWWWWWWWWWW
+
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            zài ni miàn qián sā gè jiāo
+            āi yōu miāo miāo miāo miāo miāo
+            wode xīn zàng pēng pēng tiào
+            mí liàn shàng ni de huài xiào
+            ni bù shuō ài wo wo jiù miāo miāo miāo
+
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            wo yào chuān ni de wài tào
+            wén ni shēn shang de wèi dao
+            xiang yào biàn chéng ni de māo
+            lài zài ni huái li shuì zháo
+            měi tiān dōu tān liàn zhe ni de hao
+
+            women yì qi xué māo jiào
+            yì qi miāo miāo miāo miāo miāo
+            zài ni miàn qián sā gè jiāo
+            āi yōu miāo miāo miāo miāo miāo
+            wode xīn zàng pēng pēng tiào
+            mí liàn shàng ni de huài xiào
+            ni bù shuō ài wo wo jiù miāo miāo miāo
+
+            women yì qi xué māo jiào
+            yì qi
+            miāo miāo miāo miāo miāo
+            wo yào chuān ni de wài tào
+            wén ni shēn shang de wèi dao
+            xiang yào biàn chéng ni de māo
+            lài zài ni huái li shuì zháo
+
+            měi tiān dōu tān liàn zhe ni de hao
+          </p>
+        </div>
+      )
+    }
+    else if (title==="食虫植物"){
+      return(
+        <div className="song">{title}
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            食べなくちゃ 食べなくちゃ<br/>
+            嫌なこと 忘れさせて？<br/>
+            いかないで、ねえ いかないで？<br/>
+            君の体温と、心臓。<br/><br/>
+
+            アイ アイ アイラブユーと<br/>
+            アイ アイ アイへイチュー<br/>
+            君のすべてが<br/>
+            あたしならいいのに<br/>
+
+            満たされない、満たされない<br/>
+            満たされない、のは、フィーリング、<br/>
+            愛されたい、愛されたい<br/>
+            愛されたいのは 機密事項!<br/><br/>
+<br/>
+            吐かなくちゃ もう吐かなくちゃ<br/>
+            さめざめ泣いても 終電だ<br/>
+            可愛くない、可愛くない<br/>
+            可愛くないから、消えたい？<br/><br/>
+
+            現在 開発中の アンケート<br/>
+            調査ツール<br/>
+            「あたしのすべてが<br/>
+            あの子ならいいのに」<br/>
+
+            満たされない、満たされない<br/>
+            満たされないのは、フィーリング、<br/>
+            理解されない、理解されたい<br/>
+            理解されないのは 地球規模<br/><br/>
+
+            満たされたい、満たされたい<br/>
+            満たされない、から、嫌い。<br/>
+            愛されたい、愛されたい<br/>
+            愛されたいのは 地球規模!<br/>
+          </p>
+        </div>
+
+
       )
     }
     else{
