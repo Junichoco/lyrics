@@ -23,6 +23,7 @@ function App() {
             <a class="button" onClick={() => changeSong("Lumiere")}>Lumiere</a>
             <a class="button" onClick={() => changeSong("God Shattering Star")}>God Shattering Star</a>
             <a class="button" onClick={() => changeSong("食虫植物")}>食虫植物</a>
+            <a class="button" onClick={() => changeSong("Wild Side")}>Wild Side</a>
             <a class="button" onClick={() => changeSong("Flyday Chinatown")}>Flyday Chinatown</a>
             <a class="button" onClick={() => changeSong("Kaijuu")}>Kaijuu</a>
             <a class="button" onClick={() => changeSong("Placebo")}>Placebo</a>
