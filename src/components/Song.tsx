@@ -86,7 +86,7 @@ class Song extends Component {
             I feel the thunder, see the lightning<br/>
             I know this anger's Heaven-sent<br/>
             So I've got to hang out all my hang-ups<br/>
-            'Cause on the boogie, I feel so Hell-bent, hey, hey<br/>
+            'Cause of the boogie, I feel so Hell-bent, hey, hey<br/>
             It's just an instant gut reaction, that I get<br/>
             I know I've never, ever felt like this before<br/>
             I don't know what to do<br/>
@@ -115,7 +115,7 @@ class Song extends Component {
             You know I've got these running heels to use<br/>
             Sometimes there's no way I'll lose<br/>
             I was born to run and built to last<br/>
-            You never see my feet 'cause they move so fast<br/>
+            You've never seen my feet 'cause they move so fast<br/>
 
             Dance, yeah, hey<br/>
             Nothing left for me to do but dance<br/>
