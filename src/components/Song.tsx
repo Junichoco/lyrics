@@ -538,9 +538,76 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Monitoring"){
+        return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Nee atashi shitteru yo kimi ga hitori "XX" shiteru no shitteru yo<br/>
+            Bikun bikun furuete sa koe mo dada more nanda wa<br/>
+            Shoujiki ni icchae yo bareteru nda shi icchaeyo kiiten no?<br/>
+            Futsuu futsuu hazukashii? minna kakushiteiru dake<br/><br/>
+
+            Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/>
+            Gusun gusun hekonde sa yowane hitokara in the night<br/>
+            Asa ga kuru made issho koosu motto naita tte<br/>
+            Nando datte uketomete ageru<br/>
+            Mou gaman shinaide ippai dashite ne<br/><br/>
+
+            MWAH!<br/>
+            Onegai kimi ga hoshii no<br/>
+            Nagusamesasete sheiku sheiku ai no sainou de<br/>
+            Naite kurenakya karete shimau nureteitai<br/>
+            Nee ii deshou? nametotte nomihoshitai ndatteba<br/>
+
+            MWAH!<br/>
+            Onegai kimi ga hoshii no<br/>
+            Tayori chirashite shikku rabu nante saikou ne<br/>
+            Wakete kurenakya kimi no "itai" kanjiteitai<br/>
+            Nee ii deshou? suitotte sukuitai ndatteba<br/><br/>
+
+            Mitai ni kimi no naka<br/><br/>
+
+            Nee atashi shitteru yo kimi ga hitori kuyashigatten no shitteru yo<br/>
+            Zukyun zukyun takamaru jan kimi wo osu koto wo yamenai<br/>
+        
+            Nee atashi shitteru yo kimi wa dekiru ko shitteru yo<br/>
+            Tsurai toki wa yowai kurai de choudo ii atashi soredemo suki da yo<br/><br/>
+
+            MWAH!<br/>
+            Onegai kimi ga hoshii no<br/>
+            Namae wo yonde yo itsudatte ai ni sanjou<br/>
+            Kimi wa hitori da dakara utau "hitori janai"<br/>
+            Mou ii deshou<br/>
+            Soropurei wa oshimai nandatteba<br/><br/>
+
+            Kimi ga yameru toki mo atashi soba ni iru wa<br/>
+            Itsumo mimamotteiru wa sou yo kowakunai no yo<br/><br/>
+
+            MWAH!<br/>
+            Onegai kimi ga hoshii no<br/>
+            Nagusamesasete sheiku sheiku ai no sainou de<br/>
+            Naite kurenakya karete shimau nureteitai<br/>
+            Nee ii deshou? nametotte nomihashitai ndatteba<br/><br/>
+
+            MWAH!<br/>
+            Onegai kimi ga hoshii no<br/>
+            Tayori chirashite shikku rabu nante saikou ne<br/>
+            Wakete kurenakya kimi no "itai" kanjiteitai nozoiteitai<br/>
+            Suitotte sukuitai ndatteba<br/><br/>
+
+            Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/>
+            Gusun gusun hekonde sa yowane hitokara in the night<br/>
+            Asa ga kuru made issho koosu motto naita tte<br/>
+            Nando datte uketomete ageru<br/>
+            Saa<br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
-        <div class="song-title">
+        <div className="song-title">
           <p>No song found</p>
         </div>
       )
