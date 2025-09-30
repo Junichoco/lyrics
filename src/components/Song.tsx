@@ -184,19 +184,19 @@ class Song extends Component {
             Kore chigau last minute<br/>
             Merci, au revoir<br/>
             Pride wa jama suru mosa, donc vas-y jete ca<br/>
-            Subete try shi konpai, fue ni sukuware halftime<br/>
+            Subete try shi konpai, fue ni sukuware halftime<br/><br/>
 
             Climax yumemi all in<br/>
             Ozzu mienai blurred<br/>
             Kimochi tobitatsu Boeing<br/>
-            Issun saki wa saa?<br/>
+            Issun saki wa saa?<br/><br/>
 
             Kept walking on the wild side<br/>
             I don't wanna fall asleep throughout my life<br/>
             Sometimes in a Clyde Barrow style<br/>
             Sometimes like a James Bond mind<br/>
             Be wild side<br/>
-            Try it<br/>
+            Try it<br/><br/>
 
             Censor sareru ka mo if I keep singing<br/>
             Keep rapping, keep telling the truth like Malcom X<br/>
@@ -205,19 +205,19 @@ class Song extends Component {
             Kokoro no kattou it has to end<br/>
             Demo saa angai sono kimochi ga gem<br/>
             Avant le voyage tell me what's the plan<br/>
-            Kimi to odoritai Last Dance<br/>
+            Kimi to odoritai Last Dance<br/><br/>
 
             Kept walking on the wild side<br/>
             I don't wanna fall asleep throughout my life<br/>
             Sometimes in a buffalo style<br/>
             Sometimes like a rock 'n roll mind<br/>
             Be wild side<br/>
-            Try it<br/>
+            Try it<br/><br/>
 
             Climax yumemi all in<br/>
             Ozzu mienai blurred<br/>
             Kimochi tobitatsu Boeing<br/>
-            Issun saki wa saa?<br/>
+            Issun saki wa saa?<br/><br/>
 
             It is wonderful, my life<br/>
             Please, could you kiss my name?<br/>
@@ -225,7 +225,7 @@ class Song extends Component {
             Turn off light<br/>
             It was such a sweet time<br/>
             Could you pray for me, my friend?<br/>
-            It's starting over time<br/>
+            It's starting over time<br/><br/>
 
             Taking over the night<br/>
             Taking over blue time<br/>
@@ -427,7 +427,7 @@ class Song extends Component {
     }
     else if (title==="食虫植物"){
       return(
-        <div className="song">{title}
+        <div className="song">
           <h2 className="song-title">{title}</h2>
           <p className="lyrics">
             食べなくちゃ 食べなくちゃ<br/>
@@ -468,6 +468,74 @@ class Song extends Component {
         </div>
 
 
+      )
+    }
+    else if(title==="怪獣"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Nando demo<br/>
+            Nando demo sakebu<br/>
+            Kono kurai yoru no kaijuu ni natte mo<br/>
+            Koko ni nokoshite okitainda yo<br/>
+            Kono himitsu wo<br/><br/>
+
+            Dandan taberu<br/>
+            Aka to ao no hoshiboshi<br/>
+            Mirai kara kako<br/>
+            Jun jun ni taberu<br/>
+            Nanjukkai mo kami tsubushi<br/>
+            Toketa nara nomou<br/><br/>
+
+            Tantan to shiru<br/>
+            Shireba mata afure ochiru<br/>
+            Kinou made no hontou<br/>
+            Junjun to shiru<br/>
+            Nanjuurasen no chie no wa<br/>
+            Tokeru made yukou<br/><br/>
+
+            Oka no ue de hoshi wo miru to kanjiru<br/>
+            Kono sabishisa mo<br/>
+            Asayake de te ga somaru koro ni wa mou<br/>
+            Wasureteru nda<br/><br/>
+
+            Kono sekai wa koutsugou ni mikansei<br/>
+            Dakara shiritai nda<br/>
+            Demo kaijuu mitai ni tooku tooku sakendemo<br/>
+            Mata kiete shimau nda<br/>
+
+            Dakara kitto<br/>
+            Nando demo miru<br/>
+            Kono kurai yoru no sora wo<br/>
+            Nanzenkai mo<br/>
+            Kimi ni hanashite okitain da yo<br/>
+            Kono chishiki wo<br/><br/>
+
+            Tantan to chiru<br/>
+            Chireba mata tsugi no mi<br/>
+            Hanabira wa kako<br/>
+            Tanjun ni ikiru<br/>
+            Kaijuu sareta tsuchi to ki<br/>
+            Hisohiso to sakou<br/><br/>
+
+            Ten to sen no enchousenjou wo tadoru<br/>
+            Kono sabishisa mo<br/>
+            Kuragari de me ga nareru koro niwa<br/>
+            Mou wasureterunda<br/><br/>
+
+            Kono sekai wa koutsugou ni mikansei<br/>
+            Boku wa shiritai nda<br/>
+            Dakara kaijuu mitai ni<br/>
+            Tooku e tooku e sakende<br/>
+            Tada kieteikunda<br/><br/>
+
+            Kono mirai wa koutsugou ni hikatteru<br/>
+            Dakara susumu nda<br/>
+            Ima nankounen mo tooku tooku tooku sakende<br/>
+            Mata kaijuu ni narunda<br/>
+          </p>
+        </div>
       )
     }
     else{
