@@ -543,64 +543,101 @@ class Song extends Component {
         <div className="song">
           <h2 className="song-title">{title}</h2>
           <p className="lyrics">
-            Nee atashi shitteru yo kimi ga hitori "XX" shiteru no shitteru yo<br/>
-            Bikun bikun furuete sa koe mo dada more nanda wa<br/>
-            Shoujiki ni icchae yo bareteru nda shi icchaeyo kiiten no?<br/>
-            Futsuu futsuu hazukashii? minna kakushiteiru dake<br/><br/>
+            <span className="line">Nee atashi shitteru yo kimi ga hitori "XX" shiteru no shitteru yo<br/></span>
+            <span className="line">Bikun bikun furuete sa koe mo dada more nanda wa<br/></span>
+            <span className="line">Shoujiki ni icchae yo bareteru nda shi icchaeyo kiiten no?<br/></span>
+            <span className="line">Futsuu futsuu hazukashii? minna kakushiteiru dake<br/><br/></span>
 
-            Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/>
-            Gusun gusun hekonde sa yowane hitokara in the night<br/>
-            Asa ga kuru made issho koosu motto naita tte<br/>
-            Nando datte uketomete ageru<br/>
-            Mou gaman shinaide ippai dashite ne<br/><br/>
+            <span className="line">Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/></span>
+            <span className="line">Gusun gusun hekonde sa yowane hitokara in the night<br/></span>
+            <span className="line">Asa ga kuru made issho koosu motto naita tte<br/></span>
+            <span className="line">Nando datte uketomete ageru<br/></span>
+            <span className="line">Mou gaman shinaide ippai dashite ne<br/><br/></span>
 
-            MWAH!<br/>
-            Onegai kimi ga hoshii no<br/>
-            Nagusamesasete sheiku sheiku ai no sainou de<br/>
-            Naite kurenakya karete shimau nureteitai<br/>
-            Nee ii deshou? nametotte nomihoshitai ndatteba<br/>
+            <span className="line">MWAH!<br/></span>
+            <span className="line">Onegai kimi ga hoshii no<br/></span>
+            <span className="line">Nagusamesasete sheiku sheiku ai no sainou de<br/></span>
+            <span className="line">Naite kurenakya karete shimau nureteitai<br/></span>
+            <span className="line">Nee ii deshou? nametotte nomihoshitai ndatteba<br/><br/></span>
 
-            MWAH!<br/>
-            Onegai kimi ga hoshii no<br/>
-            Tayori chirashite shikku rabu nante saikou ne<br/>
-            Wakete kurenakya kimi no "itai" kanjiteitai<br/>
-            Nee ii deshou? suitotte sukuitai ndatteba<br/><br/>
+            <span className="line">MWAH!<br/></span>
+            <span className="line">Onegai kimi ga hoshii no<br/></span>
+            <span className="line">Tayori chirashite shikku rabu nante saikou ne<br/></span>
+            <span className="line">Wakete kurenakya kimi no "itai" kanjiteitai<br/></span>
+            <span className="line">Nee ii deshou? suitotte sukuitai ndatteba<br/><br/></span>
 
-            Mitai ni kimi no naka<br/><br/>
+            <span className="line">Mitai ni kimi no naka<br/><br/></span>
 
-            Nee atashi shitteru yo kimi ga hitori kuyashigatten no shitteru yo<br/>
-            Zukyun zukyun takamaru jan kimi wo osu koto wo yamenai<br/>
+            <span className="line">Nee atashi shitteru yo kimi ga hitori kuyashigatten no shitteru yo<br/></span>
+            <span className="line">Zukyun zukyun takamaru jan kimi wo osu koto wo yamenai<br/></span>
         
-            Nee atashi shitteru yo kimi wa dekiru ko shitteru yo<br/>
-            Tsurai toki wa yowai kurai de choudo ii atashi soredemo suki da yo<br/><br/>
+            <span className="line">Nee atashi shitteru yo kimi wa dekiru ko shitteru yo<br/></span>
+            <span className="line">Tsurai toki wa yowai kurai de choudo ii atashi soredemo suki da yo<br/><br/></span>
 
-            MWAH!<br/>
-            Onegai kimi ga hoshii no<br/>
-            Namae wo yonde yo itsudatte ai ni sanjou<br/>
-            Kimi wa hitori da dakara utau "hitori janai"<br/>
-            Mou ii deshou<br/>
-            Soropurei wa oshimai nandatteba<br/><br/>
+            <span className="line">MWAH!<br/></span>
+            <span className="line">Onegai kimi ga hoshii no<br/></span>
+            <span className="line">Namae wo yonde yo itsudatte ai ni sanjou<br/></span>
+            <span className="line">Kimi wa hitori da dakara utau "hitori janai"<br/></span>
+            <span className="line">Mou ii deshou<br/></span>
+            <span className="line">Soropurei wa oshimai nandatteba<br/><br/></span>
 
-            Kimi ga yameru toki mo atashi soba ni iru wa<br/>
-            Itsumo mimamotteiru wa sou yo kowakunai no yo<br/><br/>
+            <span className="line">Kimi ga yameru toki mo atashi soba ni iru wa<br/></span>
+            <span className="line">Itsumo mimamotteiru wa sou yo kowakunai no yo<br/><br/></span>
 
-            MWAH!<br/>
-            Onegai kimi ga hoshii no<br/>
-            Nagusamesasete sheiku sheiku ai no sainou de<br/>
-            Naite kurenakya karete shimau nureteitai<br/>
-            Nee ii deshou? nametotte nomihashitai ndatteba<br/><br/>
+            <span className="line">MWAH!<br/></span>
+            <span className="line">Onegai kimi ga hoshii no<br/></span>
+            <span className="line">Nagusamesasete sheiku sheiku ai no sainou de<br/></span>
+            <span className="line">Naite kurenakya karete shimau nureteitai<br/></span>
+            <span className="line">Nee ii deshou? nametotte nomihashitai ndatteba<br/><br/></span>
 
-            MWAH!<br/>
-            Onegai kimi ga hoshii no<br/>
-            Tayori chirashite shikku rabu nante saikou ne<br/>
-            Wakete kurenakya kimi no "itai" kanjiteitai nozoiteitai<br/>
-            Suitotte sukuitai ndatteba<br/><br/>
+           <span className="line">MWAH!<br/></span>
+            <span className="line">Onegai kimi ga hoshii no<br/></span>
+            <span className="line">Tayori chirashite shikku rabu nante saikou ne<br/></span>
+            <span className="line">Wakete kurenakya kimi no "itai" kanjiteitai nozoiteitai<br/></span>
+            <span className="line">Suitotte sukuitai ndatteba<br/><br/></span>
 
-            Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/>
-            Gusun gusun hekonde sa yowane hitokara in the night<br/>
-            Asa ga kuru made issho koosu motto naita tte<br/>
-            Nando datte uketomete ageru<br/>
-            Saa<br/>
+            <span className="line">Nee atashi shitteru yo kimi ga hitori "namida" shiteru no shitteru yo<br/></span>
+            <span className="line">Gusun gusun hekonde sa yowane hitokara in the night<br/></span>
+            <span className="line">Asa ga kuru made issho koosu motto naita tte<br/></span>
+            <span className="line">Nando datte uketomete ageru<br/></span>
+            <span className="line">Saa<br/></span>
+          </p>
+        </div>
+      )
+    }
+    else if(title==="Flyday Chinatown"){
+        return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Mayonaka no hitogomi ni<br/></span>
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Hajikeru neon sain<br/><br/></span>
+
+            <span className="line">Kata ni butsukaru jingai, uinku o nageru<br/></span>
+            <span className="line"> Shirankao no anata, tomadoi no hito koma<br/></span>
+            <span className="line">Odori tsukarete ite mo, asa made asobu wa<br/></span>
+            <span className="line"> Minato no mieru basho de nanika nomitai no yo<br/><br/></span>
+
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Jasumin ni kuchidzuke wo<br/></span>
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Watashi mo ikokujin ne<br/><br/></span>
+
+            <span className="line">O-mise ni narabu kinuno, doresu wo yubisasu<br/></span>
+            <span className="line">Shibui kao no anata, wagamama ga iitai<br/></span>
+            <span className="line">Aisouwarai no obasan, kitto niau wa to<br/></span>
+            <span className="line">Doko ka shizukana basho de, kigaete mitai no yo<br/><br/></span>
+
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Kinozure no tsukiakari<br/></span>
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Watashi mo ikokujin ne<br/></span>
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Jasumin ni kuchidzuke wo<br/></span>
+            <span className="line">It's so flyday, flyday Chinatown<br/></span>
+            <span className="line">Watashi mo ikokujin ne<br/></span>
           </p>
         </div>
       )

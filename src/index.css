@@ -44,6 +44,16 @@ body {
 
 .lyrics{
   text-align: start;
+  line-height: 1.5;
+}
+
+.line{
+  transition: all 0.3s;
+}
+
+.line:hover{
+  background-color: blueviolet;
+  transition: all 0.3s;
 }
 
 code {
