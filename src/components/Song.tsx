@@ -642,6 +642,58 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Summertime"){
+        return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            <span className="line">Kimi no toriko ni natte shimaeba kitto<br/></span>
+            <span className="line">Kono natsu wa jyujitsu suru no motto<br/></span>
+            <span className="line">Mou modorenakutatte wasurenaide<br/><br/></span>
+
+            <span className="line">Nan-nen tatte mo ienai koukaishitatte kamawanai<br/></span>
+            <span className="line">Kaigantouri wo arukitai doraibu datte shite mitai<br/></span>
+            <span className="line">Tada shisen wo awasete hoshii no nei summertime<br/><br/></span>
+
+            <span className="line">Yoakemade umibe hashitte<br/></span>
+            <span className="line">Shiosai ni tsutsuma retai ne<br/></span>
+            <span className="line">Kanojo no shigusa ga amai ne<br/><br/></span>
+
+            <span className="line">Kimi no toriko ni natte shimaeba kitto<br/></span>
+            <span className="line">Kono natsu wa jyujitsu suru no motto<br/></span>
+            <span className="line">Uwasa no dreaming garu wasurenaide<br/></span>
+            <span className="line">Demo kimochi wo tsutaete shimaeba itsuka<br/></span>
+            <span className="line">Kono yume wa samete shimaudarou na<br/></span>
+            <span className="line">Aoi kage ga yureru machikado<br/><br/></span>
+
+            <span className="line">Uranai nante shinjinai<br/></span>
+            <span className="line">Unmei nante aru wake nai<br/></span>
+            <span className="line">Tada hontou no koto wo shiritai no nei summertime<br/></span>
+            <span className="line">Chikadzuku kyori ni mo kidzukanai<br/></span>
+            <span className="line">Munenotakanarigomakasenai<br/></span>
+            <span className="line">Demo mukashi to kawarazu nibuino nei summertime<br/><br/></span>
+
+            <span className="line">Omoide wa iroase tatte<br/></span>
+            <span className="line">Horetahareta no naka ga ii ne<br/></span>
+            <span className="line">Kanojo no egao ga nikui ne<br/><br/></span>
+
+            <span className="line">Kimi no toriko ni natte shimaeba kitto<br/></span>
+            <span className="line">Kono natsu wa juujitsu suru no motto<br/></span>
+            <span className="line">Uwasa no dreaming garu wasurenaide<br/></span>
+            <span className="line">Demo kimochi wo tsutaete shimaeba itsuka<br/></span>
+            <span className="line">Kono yume wa samete shimaudarou na<br/></span>
+            <span className="line">Aoi kage ga yureru<br/><br/></span>
+
+            <span className="line">Kimi no toriko ni natte shimaeba kitto<br/></span>
+            <span className="line">Kono natsu wa jyujitsu suru no motto<br/></span>
+            <span className="line">Uwasa no dreaming gal wasurenaide<br/></span>
+            <span className="line">Demo kimochi wo tsutaete shimaeba itsuka<br/></span>
+            <span className="line">Kono yume wa samete shimaudarou na<br/></span>
+            <span className="line">Aoi kage ga yureru machikado<br/><br/></span>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
