@@ -694,6 +694,90 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Never Say Goodbye"){
+        return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            <span className="line">Find a way to forever<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/></span>
+            <span className="line">Find a way to period<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/><br/></span>
+
+            <span className="line">歩け道なき道を<br/></span>
+            <span className="line">猛き愚か者たちよ<br/></span>
+            <span className="line">熱く送る血潮<br/></span>
+            <span className="line">駆け巡るのさ死地から死地を<br/></span>
+            <span className="line">誰が為に生き 誰が為に死す<br/></span>
+            <span className="line">理想? 野望? カルマ? トラウマ?<br/></span>
+            <span className="line">その答えを探しに地の果てを<br/></span>
+            <span className="line">駆けろ 駆けろ 駆けろ 駆けろ<br/><br/></span>
+
+            <span className="line">How am I gonna die?<br/></span>
+            <span className="line">Hello, my new friend<br/></span>
+            <span className="line">This is my doorway to kiss the end<br/></span>
+            <span className="line">I won't cry<br/></span>
+            <span className="line">So don't cry for me<br/></span>
+            <span className="line">This is our standing time<br/><br/></span>
+
+            <span className="line">It's last dance<br/></span>
+            <span className="line">Hello, my new friend<br/></span>
+            <span className="line">This is my doorway to kiss the end<br/></span>
+            <span className="line">I'm gonna die<br/></span>
+            <span className="line">So do pray for me<br/></span>
+            <span className="line">Like it's our closing time<br/><br/></span>
+           
+            <span className="line">Find a way to forever<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/></span>
+            <span className="line">Find a way to period<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/><br/></span>
+
+            <span className="line">南へ南へ地球の裏側へ<br/></span>
+            <span className="line">颯爽と漕ぎ出せ大海原へ<br/></span>
+            <span className="line">聞こえてくるだろカリブからのビート<br/></span>
+            <span className="line"> 乗りこなすぜ<br/></span>
+            <span className="line">¿Qué pasa, mi amigo?<br/></span>
+            <span className="line">俺たちは皆 aliens<br/></span>
+            <span className="line">自由のみが絆の Asians<br/></span>
+            <span className="line">確かめるため互いに音を出すのさ<br/></span>
+            <span className="line">それを世界に轟かすのさ<br/><br/></span>
+
+            <span className="line">まだだぜ まだまだだぜ<br/></span>
+            <span className="line">宴は続く 朝方まで<br/></span>
+            <span className="line">太古から繋がるこの太鼓が永遠を信じる君への回答さ<br/></span>
+            <span className="line">まだだぜ まだまだだぜ<br/></span>
+            <span className="line">旅は続く遥か彼方まで 今は<br/></span>
+            <span className="line">Never say goodbye でまた会いましょう<br/></span>
+            <span className="line">So, hasta la vista, baby<br/><br/></span>
+
+            <span className="line">All dreams are waiting for morning rain<br/></span>
+            <span className="line">Pick up the blame for restarting again<br/></span>
+            <span className="line">All dreams are changing to golden flame<br/></span>
+            <span className="line">Stay, don't grow<br/></span>
+            <span className="line">Stay and don't go<br/></span>
+            <span className="line">Stay and don't go<br/></span>
+            <span className="line">How am I gonna die?<br/></span>
+            <span className="line">Hello, my new friend<br/></span>
+            <span className="line">This is my doorway to kiss the end<br/></span>
+            <span className="line">I won't cry<br/></span>
+            <span className="line">So don't cry for me<br/></span>
+            <span className="line">This is our standing time<br/><br/></span>
+
+            <span className="line">It's last time<br/></span>
+            <span className="line">Hello, my new friend<br/></span>
+            <span className="line">This is my doorway to kiss the end<br/></span>
+            <span className="line">I'm gonna die<br/></span>
+            <span className="line">So do pray for me<br/></span>
+            <span className="line">Like it's our starting time<br/><br/></span>
+
+            <span className="line">Find a way to forever<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/></span>
+            <span className="line">Find a way to period<br/></span>
+            <span className="line">And make a way to pass it on my life to you<br/></span>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
