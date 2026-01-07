@@ -778,6 +778,101 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="私論理"){
+      return(
+      <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            <span className="line">今更もう遅いよ<br/></span>
+            <span className="line">誰もが踊ってるキラーボールの<br/></span>
+            <span className="line">幻が蠢く街<br/><br/></span>
+
+            <span className="line">I don't know<br/></span>
+            <span className="line">さあ、声を振り絞って<br/></span>
+            <span className="line">スクランブル交差点<br/></span>
+            <span className="line">君とだけは交わらない(ah〜ah)<br/><br/></span>
+
+            <span className="line">どうしてよって君が惑う<br/></span>
+            <span className="line">声が聞きたいの<br/></span>
+            <span className="line">「歩け歩けど人で群れるのに<br/></span>
+            <span className="line">なんで1人と踊らなきゃならないの？<br/><br/></span>
+
+            <span className="line">ハイファイに混ざるビル街の<br/></span>
+            <span className="line">この先君と私は出会える？<br/><br/></span>
+
+            <span className="line">(No)<br/><br/></span>
+
+            <span className="line">（1・２・3）<br/></span>
+            <span className="line">come on！Baby Baby<br/></span>
+            <span className="line">見つけ出して摩天楼の隠れ家で<br/></span>
+            <span className="line">私lonely lonely<br/></span>
+            <span className="line">バズった妄想で<br/></span>
+            <span className="line">さあ、今私風になる<br/><br/></span>
+
+            <span className="line">この街にHello 寂しさにHello<br/></span>
+            <span className="line">幼気な魔浪、噛み締めてirony<br/></span>
+            <span className="line">今はこの場所で待ってる<br/></span>
+            <span className="line">会いに来て？<br/><br/></span>
+
+            <span className="line">hey！<br/></span>
+            <span className="line">ハチ公前の溜まり場で<br/></span>
+            <span className="line">ネタを探してるYouTuber<br/></span>
+            <span className="line">お決まりみたいに現れる<br/></span>
+            <span className="line">お化粧パッチリ女子高生<br/><br/></span>
+
+            <span className="line">流行りのファッションどーだい？<br/></span>
+            <span className="line">一昔の見た目でdon'tSTOP！<br/></span>
+            <span className="line">二進も三進も量産型のエモさが売りに出てます<br/><br/></span>
+
+            <span className="line">Hi！<br/></span>
+            <span className="line">夢を追って現れました<br/></span>
+            <span className="line">今日と違う明日へlet's go！<br/></span>
+            <span className="line">「誰でもないスタイルを目指して<br/></span>
+            <span className="line">遥々やってまいりました」<br/><br/></span>
+
+            <span className="line">そのファッション知ってるよ<br/></span>
+            <span className="line">No. 1を目指してもKIDS皆心は１つさ<br/></span>
+            <span className="line">だから私と踊って1人は嫌<br/><br/></span>
+
+            <span className="line">（1・2・3）<br/></span>
+            <span className="line">come on！Baby Baby<br/></span>
+            <span className="line">見つけ出して摩天楼の明晰夢で<br/></span>
+            <span className="line">私lonely lonely<br/></span>
+            <span className="line">バズった妄想で<br/></span>
+            <span className="line">さあ、今私風になる<br/><br/></span>
+
+            <span className="line">この街がmy honey<br/></span>
+            <span className="line">妖艶な魅力のMy Darling<br/></span>
+            <span className="line">幼気なハロー、噛み締めてハロー<br/></span>
+            <span className="line">今は今はこの場所で待ってる<br/></span>
+            <span className="line">幻なら<br/><br/></span>
+
+            <span className="line">言葉じゃないって笑って<br/></span>
+            <span className="line">皆味方さ都会のジプシー<br/></span>
+            <span className="line">でも誰もが孤独でリスキー<br/></span>
+            <span className="line">悩み抜け誰もがオンリーワン<br/></span>
+            <span className="line">ただロンリーワン<br/></span>
+            <span className="line">今は今はスクランブル<br/></span>
+            <span className="line">(スクランブル×2)<br/><br/></span>
+
+            <span className="line">(1・2・3)<br/></span>
+            <span className="line">立ち止まったって分からないわ<br/></span>
+            <span className="line">引き裂かれたって分からないわ<br/></span>
+            <span className="line">バズった妄想でもう<br/></span>
+            <span className="line">摩天楼に溺れる風になる<br/><br/></span>
+
+            <span className="line">この街にHello 寂しさにHello<br/></span>
+            <span className="line">幼気なステップ 噛み締めてハロー<br/></span>
+            <span className="line">今は今はこの場所で待ってる<br/></span>
+            <span className="line">会いに来て！<br/><br/></span>
+
+            <span className="line">私論理 論理<br/></span>
+            <span className="line">私ロンリー ロンリー<br/></span>
+
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
