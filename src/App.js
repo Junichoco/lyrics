@@ -39,7 +39,6 @@ function App() {
           </div>
         </header>
       </div>
-      </div>
 
       
     </div>
