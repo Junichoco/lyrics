@@ -873,6 +873,74 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Make Debut"){
+      return(
+      <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            響け ファンファーレ<br/>
+            届け ゴールまで<br/>
+            輝く未来を君と見たいから<br/>
+            駆け出したらきっと始まる story<br/>
+            いつでも近くにあるから<br/>
+            手を伸ばせばもっと掴める glory<br/>
+            1番目指して let's challenge<br/>
+            加速してゆこう<br/>
+            勝利の女神も夢中にさせるよ<br/>
+            スペシャルな明日へ繋がる<br/>
+            Make debut!<br/><br/>
+
+            響け ファンファーレ<br/>
+            届け ゴールまで<br/>
+            輝く未来を君と見たいから<br/>
+            駆け抜けてゆこう 君だけの道を<br/>
+            もっと 速く<br/>
+            I believe<br/>
+            夢の先まで<br/><br/>
+
+            憧れとかずっと無くさないように<br/>
+            夜空も星が照らすから<br/>
+            強がりだっていつか強さに変わる<br/>
+            100万馬力で try again<br/>
+            乗り越えてゆこう<br/>
+            奇跡も起こせる とびっきりのチャンス<br/>
+            新しい景色が広がる<br/>
+            Make debut!<br/><br/>
+
+            響け ファンファーレ<br/>
+            届け 遠くまで<br/>
+            輝く希望は君だけの強さ<br/>
+            飛び込んでみたら変わってゆくから<br/>
+            ここに 誓おう<br/>
+            My dream<br/>
+            掴み取るため<br/><br/>
+
+            躓くこともあるけど<br/>
+            自分を信じて<br/>
+            一歩 踏み出すよ 一歩<br/>
+            いつでも世界は光ってる<br/><br/>
+            
+            響け ファンファーレ<br/>
+            届け ゴールまで<br/>
+            輝く未来を君と見たいから<br/>
+            駆け抜けてゆこう 君だけの道を<br/>
+            もっと 速く<br/>
+            I believe in<br/><br/>
+
+            響け ファンファーレ<br/>
+            届け 遠くまで<br/>
+            輝く希望は君だけの強さ<br/>
+            飛び込んでみたら変わってゆくから<br/>
+            走れ 走れ 誰より速く<br/>
+            いつか笑える<br/>
+            最高だけ目指してゆこう<br/>
+            I believe<br/>
+            夢の先まで<br/>
+
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
