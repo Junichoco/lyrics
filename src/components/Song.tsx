@@ -941,6 +941,53 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="天使創造SOS"){
+      <div className="song">
+        <h2 className="song-title">{title}</h2>
+        <p className="lyrics">
+          天地創造投げ出して<br/>
+          あれから世界は<br/><br/>
+
+          鳴り止まない着信音<br/>
+          ただいま 電話にでられません<br/>
+          ピーという発信音のなか目一杯朝寝坊<br/>
+          巻き起こるは大論争<br/>
+          尻目に遅い morning<br/>
+          ピーという発信音のあと メッセージが<br/><br/>
+
+          きみのメッセージは 日々の essence<br/>
+          繰り返す sentence ああ nonsense<br/>
+          きみのメッセージは まるで SOS<br/>
+          SOS 溢れ出す SOS<br/><br/>
+
+          ああ 天地創造投げ出して<br/>
+          贅沢三昧夢のよう<br/>
+          0時ちょうどの update<br/>
+          少しだけ胸が痛むけど<br/>
+          メッセージは SOS<br/><br/>
+
+          鳴り止まない着信音<br/>
+          ただいま 電話にでられません<br/>
+          ピーという ピーという<br/>
+          ああ 発信音が鳴り響く<br/>
+          メッセージは SOS<br/>
+          SOS 溢れ出す SOS<br/>
+          全知全能投げ捨てて<br/>
+          普通の恋に溺れたい<br/>
+          0時になったって<br/>
+          構わないけど<br/>
+          天地創造投げ出して<br/>
+          あれから世界はどうなった<br/>
+          メッセージは捨てられずに<br/>
+          きみは元気にしているのかな<br/>
+          メッセージは SOS メッセージは SOS<br/>
+          メッセージは SOS メッセージは SOS<br/>
+          メッセージは SOS メッセージは SOS<br/>
+          メッセージは SOS メッセージは SOS<br/>
+          またね<br/>
+        </p>
+      </div>
+    }
     else{
       return(
         <div className="song-title">

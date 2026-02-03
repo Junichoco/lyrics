@@ -33,16 +33,14 @@ function App() {
             <a class="button" onClick={() => changeSong("Never Say Goodbye")}>Never Say Goodbye</a>
             <a class="button" onClick={() => changeSong("私論理")}>私論理</a>
             <a class="button" onClick={() => changeSong("Make Debut")}>Make Debut</a>
+            <a class="button" onClick={() => changeSong("天使創造SOS")}>天使創造SOS</a>
             <a class="button" onClick={() => changeSong("monkey")}>monkey</a>
           </div>
           <div class="lyrics">
             <Song title={song}/>
           </div>
         </header>
-      </div>
-      
-
-      
+      </div>      
     </div>
   );
 }
