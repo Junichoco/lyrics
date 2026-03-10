@@ -880,7 +880,8 @@ class Song extends Component {
           <p className="lyrics">
             響け ファンファーレ<br/>
             届け ゴールまで<br/>
-            輝く未来を君と見たいから<br/>
+            輝く未来を君と見たいから<br/><br/>
+            
             駆け出したらきっと始まる story<br/>
             いつでも近くにあるから<br/>
             手を伸ばせばもっと掴める glory<br/>
@@ -970,7 +971,8 @@ class Song extends Component {
             鳴り止まない着信音<br/>
             ただいま 電話にでられません<br/>
             ピーという ピーという<br/>
-            ああ 発信音が鳴り響く<br/>
+            ああ 発信音が鳴り響く<br/><br/>
+
             メッセージは SOS<br/>
             SOS 溢れ出す SOS<br/>
             全知全能投げ捨てて<br/>
