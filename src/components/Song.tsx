@@ -992,6 +992,56 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Binks' Brew"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Yo hohoho, yo hohoho Yo hohoho, yo hohoho<br/>
+            Yo hohoho, yo hohoho Yo hohoho, yo hohoho<br/><br/>
+
+            Gather up all of the crew, it's time to ship out Binks' brew.<br/>
+            Sea wind blows, to where, who knows? The waves will be our guide.<br/>
+            O'er across the ocean's tide. Rays of sunshine far and wide.<br/>
+            Birds they sing, of cheerful things, in circles passing by.<br/><br/>
+
+            Bid farewell to weaver's town, say so long to port renowned.<br/>
+            Sing a song, it won't be long, before we're casting off.<br/>
+            Cross the gold and silver seas, a salty spray puts us at ease,<br/>
+            Day and night, to our delight, the voyage never ends.<br/><br/>
+
+            Gather up all of the crew, it's time to ship out Binks' brew.<br/>
+            Pirates, we eternally are challenging the sea.<br/>
+            With the waves to rest our heads, ship beneath us as our beds,<br/>
+            hoisted high upon the mast, our jolly roger flies.<br/><br/>
+
+            Somewhere in the endless sky, stormy winds are blowing by,<br/>
+            waves are dancing, evening comes, it's time to sound the drums.<br/>
+            But steady men, may never fear, tomorrow's skies are always clear.<br/>
+            So pound your feet and clap your hands 'til sunny days return.<br/><br/>
+
+            Yo hohoho, yo hohoho Yo hohoho, yo hohoho<br/>
+            Yo hohoho, yo hohoho Yo hohoho, yo hohoho<br/><br/>
+
+            Gather up all of the crew, it's time to ship out Binks' brew.<br/>
+            Wave goodbye, but don't you cry, our memories remain.<br/>
+            Our days are but a passing dream, everlasting though they seem.<br/>
+            Beneath the moon we'll meet again, the wind's our lullaby.<br/>
+
+            Gather up all of the crew, it’s time to ship out Binks’ brew.<br/>
+            Sing a song, and play along for all the oceans wide.<br/>
+            After all is said and done, you'll end up a skeleton,<br/>
+            so spread your tale from dawn 'til dusk upon these foamy seas.<br/><br/>
+
+            Yo hohoho, yo hohoho…Yo hohoho, yo hohoho...<br/>
+            Yo hohoho, yo hohoho…Yo hohoho, yo hohoho...<br/>
+
+            Yo hohoho, yo hohoho…Yo hohoho, yo hohoho...<br/>
+            Yo hohoho, yo hohoho…Yo hohoho, yo hohoho...<br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
