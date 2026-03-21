@@ -1042,6 +1042,155 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Casanova Posse"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Hana no ame furu shinjidai<br/>
+            Tsuki made todoke koe, tane yo, fly<br/>
+            Shihaisha wa mada nemuranai kara<br/>
+            Mukai kaze, nirami, sasageru, my life<br/>
+            Zen saibou no yuutsu kazoe, nagame<br/>
+            Futashikana ai ni hikari yo yadore<br/>
+            Aisou warai wa wasurechimatta<br/>
+            Sosoru darou?<br/><br/>
+
+            One<br/>
+            I got the two<br/>
+            I got<br/><br/>
+
+            I will change my life like a magic<br/>
+            Shine on me, shine on me<br/>
+            Every guilty is singing about the night of rude<br/>
+            I want to stop my lonely imagine<br/>
+            Our graces still have a melody<br/>
+            Shine on me, shine on me<br/>
+            Save me, save me<br/><br/>
+
+            Órale, órale<br/>
+            I won't let you down<br/>
+            Órale, órale<br/>
+            Oh, vente conmigo<br/>
+            Hoshii mono wa "ima"<br/>
+            Waratte aragae<br/>
+            Órale, órale<br/>
+            Like a casanova posse<br/>
+            
+            Tarara Rattatta<br/>
+            Baka dekee oto de tsuki made buttobashite<br/>
+            Nokotta midareta kono kimochi<br/>
+            Naa, hoshii daro? Sosoru daro?<br/>
+            Zen jinrui no yuutsu kazoe, nagame<br/>
+            Ai yo, umarekaware<br/>
+            Tobenai ruuru wa wasurechimatta<br/>
+            Toberu yona?<br/><br/>
+
+            Oh (Oh)<br/>
+            Hey (Hey)<br/>
+            Oh (Oh), oh (Oh)<br/>
+            Yeah (Yeah), yeah (Yeah)<br/><br/>
+
+            I will change my life like a magic<br/>
+            Shine on me, shine on me<br/>
+            Every guilty is singing about the night of rude<br/>
+            I want to stop my lonely imagine<br/>
+            Our graces still have a melody<br/>
+            Shine on me, shine on me<br/>
+            Save me, save me<br/><br/>
+
+            Órale, órale<br/>
+            I won't let you down<br/>
+            Órale, órale<br/>
+            Oh, vente conmigo<br/>
+            Hoshii mono wa "ima"<br/>
+            Sakende aragae<br/>
+            Órale, órale<br/>
+            Like a, Ah<br/><br/>
+
+            Stop my lonely imagine<br/>
+            Shine on me, shine on me<br/>
+            I want to stop my lonely imagine<br/>
+            Our graces still have a melody<br/>
+            Shine on me, shine on me<br/>
+            Save me, save me<br/><br/>
+
+            Come on here, and come on near<br/>
+            I won't make you down<br/>
+            Take it slowly, come on now like a<br/>
+            Casanova posse<br/><br/>
+            
+          </p>
+        </div>
+      )
+    }
+    else if(title==="Casanova Posse"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            If I, I get to know your name<br/>
+            Well if I, could trace your private number, baby<br/><br/>
+
+            All I know is that to me<br/>
+            You look like you're lots of fun<br/>
+            Open up your lovin' arms<br/>
+            I want some, want some<br/><br/>
+
+            I set my sights on you<br/>
+            (And no one else will do)<br/>
+            And I, I've got to have my way now, baby<br/><br/>
+
+            All I know is that to me<br/>
+            You look like you're havin' fun<br/>
+            Open up your lovin' arms<br/>
+            Watch out, here I come<br/>
+
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/>
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/><br/>
+       
+            I <br/>
+            I got to be your friend now, baby<br/>
+            And I would like to move in just a little bit closer (To move in just a little bit closer)<br/>
+
+          
+            All I know is that to me<br/>
+            You look like you're lots of fun<br/>
+            Open up your lovin' arms<br/>
+            Watch out, here I come<br/>
+
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/>
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/><br/>
+
+            I want your love<br/>
+            I want your love<br/>
+
+            All I know is that to me<br/>
+            You look like you're lots of fun<br/>
+            Open up your lovin' arms<br/>
+            Watch out, here I come<br/>
+           
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/>
+            You spin me right 'round, baby, right 'round<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/>
+            You spin me right 'round, baby, right 'round (You spin me like a record)<br/>
+            Like a record, baby, right 'round, 'round, 'round (I want your love)<br/>
+            You spin me right 'round, baby, right 'round (You spin me like a record)<br/>
+            Like a record, baby, right 'round, 'round, 'round (I want your love)<br/>
+            You spin me right 'round, baby, right 'round (I need your love)<br/>
+            Like a record, baby, right 'round, 'round, 'round<br/>
+            You spin me right 'round, baby, right 'round (I need your love)<br/>
+            Like a record, baby, right 'round, 'round, 'round
+            
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
