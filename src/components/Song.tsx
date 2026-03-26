@@ -1124,7 +1124,7 @@ class Song extends Component {
         </div>
       )
     }
-    else if(title==="Casanova Posse"){
+    else if(title==="You Spin Me"){
       return(
         <div className="song">
           <h2 className="song-title">{title}</h2>
@@ -1187,6 +1187,82 @@ class Song extends Component {
             You spin me right 'round, baby, right 'round (I need your love)<br/>
             Like a record, baby, right 'round, 'round, 'round
             
+          </p>
+        </div>
+      )
+    }
+    else if(title==="愛したげる"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            愛のため息に　絞られてるみたい<br/>
+            どんな呪文でも　ほどけないのよ<br/>
+            うれいをひそめた　静かな瞳が<br/>
+            余計に心　かき乱してく<br/><br/>
+
+            素直じゃないあたしよりもっと<br/>
+            素直じゃないあなたが<br/>
+            愛しい<br/><br/>
+
+            あなたがいいの　悪魔でもいい<br/>
+            AH 今めぐり合えたキセキ<br/>
+            消えない傷も　深いカルマも<br/>
+            AH 愛したげる<br/>
+            何処にいても何度でも OH OH<br/>
+            
+          </p>
+        </div>
+      )
+    }
+    else if(title==="木綿のハンカチーフ"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            恋人よ　ぼくは旅立つ<br/>
+            東へと向う列車で<br/>
+            はなやいだ街で　君への贈りもの<br/>
+            探す　探すつもりだ<br/><br/>
+
+            いいえ　あなた　私は<br/>
+            欲しいものはないのよ<br/>
+            ただ都会の絵の具に<br/>
+            染まらないで帰って<br/>
+            染まらないで帰って<br/><br/>
+
+            恋人よ　半年が過ぎ<br/>
+            逢えないが泣かないでくれ<br/>
+            都会で流行りの　指輪を送るよ<br/>
+            君に　君に似合うはずだ<br/><br/>
+
+            いいえ　星のダイヤも<br/>
+            海に眠る真珠も<br/>
+            きっと　あなたのキスほど<br/>
+            きらめくはずないもの<br/>
+            きらめくはずないもの<br/><br/>
+
+            恋人よ　いまも素顔で<br/>
+            くち紅も　つけないままか<br/>
+            見間違うような　スーツ着たぼくの<br/>
+            写真　写真を見てくれ<br/><br/>
+            
+            いいえ　草にねころぶ<br/>
+            あなたが好きだったの<br/>
+            でも　木枯しのビル街<br/>
+            からだに気をつけてね<br/>
+            からだに気をつけてね<br/><br/>
+
+            恋人よ　君を忘れて<br/>
+            変わってく　ぼくを許して<br/>
+            毎日愉快に　過ごす街角<br/>
+            ぼくは　ぼくは帰れない<br/><br/>
+            
+            あなた　最後のわがまま<br/>
+            贈りものをねだるわ<br/>
+            ねえ　涙拭く　木綿の<br/>
+            ハンカチーフ下さい<br/>
+            ハンカチーフ下さい<br/>
           </p>
         </div>
       )
