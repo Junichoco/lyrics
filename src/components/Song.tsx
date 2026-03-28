@@ -1257,12 +1257,70 @@ class Song extends Component {
             変わってく　ぼくを許して<br/>
             毎日愉快に　過ごす街角<br/>
             ぼくは　ぼくは帰れない<br/><br/>
-            
+
             あなた　最後のわがまま<br/>
             贈りものをねだるわ<br/>
             ねえ　涙拭く　木綿の<br/>
             ハンカチーフ下さい<br/>
             ハンカチーフ下さい<br/>
+          </p>
+        </div>
+      )
+    }
+    else if(title==="Daddy Daddy Do"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Daddy, daddy, do<br/>
+            Hoshii nosa anata no subete ga<br/>
+            Ai ni dakare giragira moete shimaitai<br/><br/>
+
+            Kawaige na kisu de one, two, three<br/>
+            Mesen sorashite zurui yo ne<br/>
+            Hoteridasu boku no kimochi<br/>
+            Moteasobu mitai de<br/><br/>
+
+            Oikakecha dame na no wa wakatteru demo murisa<br/>
+            Ichido fumidaseba modorenakute kamen wa nugisutete<br/>
+            Ikenai koto made asobi ga maji ni naru<br/><br/>
+
+            Daddy, daddy, do<br/>
+            Hoshii nosa anata no subete ga<br/>
+            Damasaretara sore demo ii motto furuwasete<br/>
+            Misetekure boku dake ni egao no ura made<br/>
+            Ai ni dakare giragira moete shimaitai<br/><br/>
+
+            Chuucho nado shinai no no no<br/>
+            Nidoto aenai hitodakara<br/>
+            Koukai ni kureru no nara<br/>
+            Koi no hi ni yakaretai<br/><br/>
+
+            Wazato deshou nagashime ga<br/>
+            Itoshisa wo shigeki suru<br/>
+            Sotto furikaeru utsukushisa ni<br/>
+            Kokoro wa tsukamarete<br/>
+            Kokyuu ga tomatte asobi ga maji ni naru<br/><br/>
+
+            Daddy, daddy, do butsuketai<br/>
+            Omoi no subete wo<br/>
+            Kirei na mono dake janakute kiken na negai mo<br/>
+            Tomenaide sono koe ga boku wo tsurete iku<br/>
+            Ai ni dakare giragira moete shimaitai<br/><br/>
+
+            Anata dake to iu kuchibiru ga<br/>
+            Yasashiku hohoemu tabi<br/>
+            Nomikomarete izanawarete<br/>
+            Michi no sekai furete, oh<br/><br/>
+
+            Daddy, daddy, do<br/>
+            Saigo made anata ni yudanete<br/>
+            Kowarerunara soredemo ii<br/>
+            Motto kuruwasete<br/>
+            Misetekure boku dake ni<br/>
+            Kokoro no oku made<br/>
+            Ai ni dakare giragira<br/>
+            Moetai inochi hateru yoake made<br/>
           </p>
         </div>
       )
