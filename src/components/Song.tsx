@@ -1325,6 +1325,145 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="さみしいかみさま"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Furetara hōkai kasō no sekai<br/>
+            Nando mo tsukuri naoshite<br/>
+            Zutto matteta karada amaku shite<br/>
+            Tsuki no uragawa kara<br/><br/>
+
+            Samishii kamisama<br/>
+            Atashi no koto itten no<br/>
+            Samishiku nanka nai<br/>
+            Samishii toka kangaenai<br/><br/>
+
+            Nē Kimi no umareta sekai wa<br/>
+            Kimi no sugoshiteru aji wa<br/>
+            Amai Tsurai Shoppai Nigai<br/>
+            Sore tomo Suppai no?<br/>
+            Dore kurai no aijō o<br/>
+            Kono sekai ni Muketen no?<br/>
+            Kage Usokusai na<br/>
+            Kamen butōkai mitai<br/><br/>
+
+            Guruguru guruguru guruguru Mawaru<br/>
+            Sugu sugu sugu sugu sugu sugu aichau<br/>
+            Pokkari aita ana kara<br/>
+            Amai Awai Itai Afureru<br/><br/>
+
+            Furetara hōkai Kasō no sekai<br/>
+            Nando mo tsukuri naoshite<br/>
+            Zutto matteta Karada amaku shite<br/>
+            Tsuki no uragawa kara<br/><br/>
+            
+            I ai I ai I ai aitai na<br/>
+            I ai I ai I ai I ai I ai I ai Aitai na<br/><br/>
+
+            Saki mo shirezu tokete yuku no<br/>
+            Atatakai Mizu no naka<br/>
+            Hajikeru kihō NINGEN no yō<br/>
+            Atashi datte onnaji da<br/><br/>
+
+            Furetara hōkai Kasō no sekai<br/>
+            Nando mo tsukuri naoshite<br/>
+            Honto wa koko ni furete hoshii no<br/>
+            Tsuki no uragawa yori<br/><br/>
+
+            Furetara hōkai Mōsō no hate<br/>
+            Nando mo tsukuri naoshite<br/>
+            Honto wa atashi ga Ichiban moroi<br/>
+            Tsuki no kakera mitai<br/><br/>
+
+            I ai I ai I ai shiritai<br/>
+            I ai I ai I ai aishite<br/>
+            I ai I ai I ai AI ga nakucha<br/>
+            Kono sekai wa hametsu yo<br/><br/>
+
+            Furetara hōkai Mōsō no hate<br/>
+            Nando mo tsukuri naoshite<br/>
+            Hora mite furete<br/>
+            Nani ka kanjite Hontō no ATASHI o<br/>
+            Furetara hōkai Mōsō no hate<br/>
+            Nando mo tsukuri naoshite<br/>
+            Fureta totan ni kuzurete kieru<br/>
+            Atashi no naka no ATASHI<br/>
+
+            I ai I ai I ai shiritai<br/>
+            I ai I ai I ai aishite<br/>
+            I ai I ai I ai AI ga nakucha<br/>
+            Kono sekai wa hametsu yo<br/>
+          </p>
+        </div>
+      )
+    }
+    else if(title==="水星"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            太陽が照らす小田急線内<br/>
+            あの子の中じゃ今もまだ圏外<br/>
+            恋愛　縁無い　やっぱ焦んない<br/>
+            携帯からのミュージック安定剤<br/><br/>
+
+            会社で接待　狭い世界<br/>
+            描いてた絵と観比べて目眩<br/>
+            あー、もー、こんなのありえない...<br/>
+            もう一度コンティニューしたいよ<br/>
+
+            煌めくネオン　ゴミが光る街<br/>
+            老い知らぬ耳　信じてる証<br/>
+            チェックするニューソング<br/>
+            ディスコは宇宙　ムスクの香りの　君に夢中<br/><br/>
+
+            無重力で浮遊　果てのない空間　ぷかぷか<br/>
+            ぐるぐるまわる惑星乗って<br/>
+            どこまでもゆけるよ　おっおー<br/><br/>
+
+            めくるめくミラーボール乗って水星にでも旅に出ようか<br/>
+            いつか見たその先に何があるというの<br/><br/>
+
+            きらきら光る星のはざまでふたりおどりあかしたら<br/>
+            もっと輝くところに君を連れて行くよ<br/><br/>
+
+            気になるBOYは今夜どこに<br/>
+            たしかにパチパチ弾けた音<br/>
+            明日には忘れちゃうのかな<br/><br/>
+
+            プラズマ　走る稲妻<br/>
+            くらくらしちゃうな<br/>
+            さらさら黒髪の艶やかさ<br/>
+            どこかで聴いたような歌詞状態さ<br/><br/>
+
+            私が知らない夜はどこ？<br/>
+            あなたの知ってる朝が見たい<br/>
+            あの子は朝までクラブイベント<br/>
+            あいつは昼間も夢の中<br/><br/>
+
+            許可なく侵入する日差し<br/>
+            クラブ帰りこもる耳の奥<br/>
+            結ぶ　鳴るスヌーズから<br/>
+            一転　進展　通知音　は　君の名前<br/><br/>
+
+            めくるめくミラーボール乗って水星にでも旅に出ようか<br/>
+            いつか見たその先に何があるというの<br/><br/>
+
+            きらきら光る星のはざまでふたりおどりあかしたら<br/>
+            もっと輝くところに君を連れて行くよ<br/><br/>
+
+            めくるめくミラーボール乗って水星にでも旅に出ようか<br/>
+            いつか見たその先に何があるというの<br/><br/>
+
+            きらきら光る星のはざまでふたりおどりあかしたら<br/>
+            もっと輝くところに君を連れて行くよ<br/>
+            水星にでも旅に出ようか<br/><br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">

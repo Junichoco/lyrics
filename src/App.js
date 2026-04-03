@@ -40,6 +40,8 @@ function App() {
             <a class="button" onClick={() => changeSong("愛したげる")}>愛したげる</a>
             <a class="button" onClick={() => changeSong("木綿のハンカチーフ")}>木綿のハンカチーフ</a>
             <a class="button" onClick={() => changeSong("Daddy Daddy Do")}>Daddy Daddy Do</a>
+            <a class="button" onClick={() => changeSong("さみしいかみさま")}>さみしいかみさま</a>
+            <a class="button" onClick={() => changeSong("水星")}>水星</a>
             <a class="button" onClick={() => changeSong("monkey")}>monkey</a>
           </div>
           <div class="lyrics">
