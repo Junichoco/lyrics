@@ -1538,6 +1538,71 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Enter Enter Mission"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Enter Enter MISSION!<br/>
+            早くここにおいで<br/>
+            一生懸命追いかけたいよ<br/>
+            だから一緒… come on!<br/><br/>
+
+            失敗して落ち込んだ？<br/>
+            元気だせ 気にしない<br/>
+            小さい×乗り越えて<br/>
+            進化ですよ みんなで、ね！<br/><br/>
+
+            誰かを信じたら倍になるHappy<br/>
+            全力でぶつかれば憧れが現実になる<br/>
+            真剣にほら走って<br/><br/>
+
+            Enter Enter MISSION!<br/>
+            早くここにおいで<br/>
+            一生懸命追いかけようね<br/>
+            チカラいっぱい！<br/>
+            Enter Enter MISSION!<br/>
+            いつも手を繋いで<br/>
+            辛くても平気！<br/>
+            明日の太陽 光る太陽 目指して<br/>
+            ずっと一緒の未来<br/><br/>
+
+            面倒でも手抜きダメ！<br/>
+            そうだそうだ頑張ろう<br/>
+            落ち込んだら励まして<br/>
+            進歩ですね みんなと、ね！<br/><br/>
+
+            独りじゃ無理なら声かけてDoing<br/>
+            全身にみなぎるよ空色の大きな夢が<br/>
+            真剣な目のフレンズ<br/><br/>
+
+            Early Early SESSION!<br/>
+            すぐに君を呼んで<br/>
+            冗談半分笑いながら<br/>
+            語るストーリー<br/>
+            Early Early SESSION!<br/>
+            今を楽しもうよ<br/>
+            叶うはず本気！<br/>
+            明日も太陽 昇る太陽 仰いで<br/>
+            新しい日がくる<br/><br/>
+
+            きっと変わる やっと変わる<br/>
+            好きになりたいものを<br/>
+            見つけたら変わり始めるよ<br/><br/>
+
+            Enter Enter MISSION!<br/>
+            早くここにおいで<br/>
+            一生懸命追いかけようね<br/>
+            チカラいっぱい！<br/>
+            Enter Enter MISSION!<br/>
+            いつも手を繋いで<br/>
+            辛くても平気！<br/>
+            明日の太陽 光る太陽 目指して<br/>
+            ずっと一緒の未来<br/><br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">

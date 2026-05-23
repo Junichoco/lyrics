@@ -44,6 +44,7 @@ function App() {
             <a class="button" onClick={() => changeSong("水星")}>水星</a>
             <a class="button" onClick={() => changeSong("Knickknack Kingdom")}>Knickknack Kingdom</a>
             <a class="button" onClick={() => changeSong("Enter Enter Mission")}>Enter Enter Mission</a>
+            <a class="button" onClick={() => changeSong("Rain")}>Rain</a>
             <a class="button" onClick={() => changeSong("monkey")}>monkey</a>
           </div>
           <div class="lyrics">
