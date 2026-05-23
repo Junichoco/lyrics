@@ -1603,6 +1603,93 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="SPECIALZ"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            You are my special<br/>
+            You are my special<br/>
+            You are my special<br/><br/>
+
+            Imawa no kiwakiwa de odori mashou<br/>
+            Toukyou zensen kyou no miyako<br/>
+            Oujou giwa no kiwakiwa de agaki mashou<br/>
+            Ogyougi no warui tsura mo misete yo<br/><br/>
+
+            I love you, baby<br/>
+            Utai tsuzuke mashou<br/>
+            Donna shiremono mo<br/>
+            Donna yosomono mo<br/>
+            Kokoro moeru<br/>
+            Ikkyoshu ittousoku<br/>
+            Hashiridashitara ankontorooru<br/>
+            You are my special<br/><br/>
+
+            Muchakucha ni shite kurenai kai?<br/>
+            Issai wo zonbun ni kurai tsukushite<br/>
+            Isshou meikyuu kaiyuu randebuu<br/>
+            Memai ga suru hodo<br/>
+            "You are my special"<br/>
+            Uyamuya na mama mawaru sekai<br/>
+            No, no, no! Sou reisei ni wa naranaide<br/>
+            Isshou meikyuu kaiyuu randebuu<br/>
+            Dare ga dou iou to<br/>
+            "You are my special"<br/>
+            "We are special"<br/><br/>
+
+            You are my special<br/><br/>
+
+            Dohyou giwa no kiwakiwa de kotae mashou<br/>
+            Toukyou ensen ouare moyou<br/>
+            Houdou kikan giragira chibashirimasu<br/>
+            Reisei to fukan wa gohatto desu<br/><br/>
+
+            "Get lost in me"<br/>
+            Jibun wo kabau kotoba bakari wo<br/>
+            Itsu made ii kikaseru no?<br/>
+            "Get lost in me"<br/>
+            Ikizama wo kuiru nante<br/>
+            Sonna no gomen da wa<br/>
+            Outou shite yo sono taion kanjitai no<br/>
+            Tei taion no furoo ga tsuketa aoi honoo<br/>
+            Romantikku ni gomakasanaide<br/>
+            Tantou chokunyuu ni kirisaite<br/>
+            Netsu ppoi rabu songu ni wa yoenai yo mou<br/>
+            I love you, baby<br/>
+            I love you, baby<br/><br/>
+
+            Imawa no kiwakiwa de odori mashou<br/>
+            Toukyou zensen kyou no miyako<br/>
+            Oujou giwa no kiwakiwa de agaki mashou<br/>
+            Ogyougi no warui<br/>
+            You are my special<br/><br/>
+
+            Muchakucha ni shite kurenai kai?<br/>
+            Mirai wo zonbun ni kurai tsukushite<br/>
+            Isshou meikyuu kaiyuu randebuu<br/>
+            Memai ga suru hodo<br/>
+            "You are my special"<br/>
+            Uyamuya na mama mawaru sekai<br/>
+            No, no, no! Sou reisei ni wa naranaide<br/>
+            Isshou meikyuu kaiyuu randebuu<br/>
+            Dare ga dou iou to<br/>
+            "You are my special"<br/><br/>
+
+            We are special<br/>
+            Reisei ni wa naranaide<br/>
+            We are special<br/>
+            Anata wa sono mama de<br/>
+            We are special<br/>
+            Doko made mo tokubetsu yo<br/>
+            We are special<br/>
+            Dare ga dou iou to<br/><br/>
+
+            You are my special<br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
