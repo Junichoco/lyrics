@@ -1690,6 +1690,83 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Hai Yorokonde"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            "Hai yorokonde"<br/>
+            "Anata gata no tame"<br/>
+            "Hai tsutsu shinde"<br/>
+            "Anata gata no tame ni"<br/><br/>
+
+            Sashinobite kita te<br/>
+            Sanagara seigi shitate<br/>
+            Iya iya de ikinobite<br/>
+            Wakarazuya ni tate<br/>
+            "Hai yorokonde anatagata no tame ni"<br/>
+            "Dekiru koto nara, dekiru toko made"<br/><br/>
+
+            Ato ippo wo fumi dashite<br/>
+            Iya na koto omoi dashite<br/>
+            Naraku ondo kanadero<br/>
+            "・・・"<br/>
+            Mou ippo wo fumi dashite<br/>
+            Iya na koto omoi dashite<br/>
+            Narase kimi no san kara roku masu<br/>
+            "・・・---・・・"<br/><br/>
+
+            Giri giri dansu, giri giri dansu (Odore)<br/>
+            Giri giri dansu, giri giri dansu (Motto narase)<br/>
+            Giri giri dansu, giri giri dansu (Odore)<br/>
+            Giri giri dansu, giri giri dansu (Motto narase, what?)<br/><br/>
+           
+            Narase kimi no yamai no machi wo (Dansu-dansu)<br/>
+            Kakuse waraeru tanin no opinion (Dansu-dansu)<br/>
+            Ucchare seigi no choujin tachi wo (Dansu-dansu)<br/>
+            Narase kimi no san kara roku masu<br/>
+            "・・・---・・・"<br/><br/>
+
+            Mm (What?)<br/>
+            Mm (What?)<br/><br/>
+
+            Ikari daite mo<br/>
+            Yasashi sa ga katsu anata no<br/>
+            Kaketa toko ga kibou (Save this game, Mr. A.)<br/>
+            Sukuwareta no wa boku no uchi no hitori de<br/><br/>
+
+            Ato ippo wo fumi dashite<br/>
+            Iya na koto omoi dashite<br/>
+            Naraku ondo kanadero<br/>
+            "・・・"<br/>
+            Mou ippo wo fumi dashite<br/>
+            Iya na koto omoi dashite<br/>
+            Narase kimi no san kara roku masu<br/>
+            Wakare michi omou ga mama go to Earth<br/>
+            Makaseta kiri waga mama na kotoba<br/>
+            Saa! Kanadero hakuna matata na oto wa<br/>
+            "・・・---・・・"<br/><br/>
+    
+            Giri giri dansu, giri giri dansu (Odore)<br/>
+            Giri giri dansu, giri giri dansu (Motto narase)<br/>
+            Giri giri dansu, giri giri dansu (Odore)<br/>
+            Giri giri dansu, giri giri dansu (Motto narase, what?)<br/><br/>
+
+            Narase kimi no yamai no machi wo (Dansu-dansu)<br/>
+            Kakuse waraeru tanin no opinion (Dansu-dansu)<br/>
+            Ucchare seigi no choujin tachi wo (Dansu-dansu)<br/>
+            Narase kimi no san kara roku masu<br/>
+            "・・・---・・・"<br/><br/>
+
+            "Hai yorokonde anata gata no tame ni"<br/>
+            "Dekiru koto nara dekiru toko made"<br/>
+            "Hai tsutsu shinde anata gata no tame ni" (What?)<br/>
+            Narase kimi no san kara roku masu<br/>
+            "・・・---・・・"<br/><br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
