@@ -1875,6 +1875,76 @@ class Song extends Component {
         </div>
       )
     }
+    else if(title==="Fiesta! Fiesta!"){
+      return(
+        <div className="song">
+          <h2 className="song-title">{title}</h2>
+          <p className="lyrics">
+            Quién tenga hambre<br/>
+            ¡Qué coma!<br/>
+            ¡Y pa' los que tienen sed!<br/>
+            Hay jugo pa' todos<br/><br/>
+
+            Fiesta! Fiesta! 情熱を解き放とう! (¡Dímelo!)<br/>
+            Fiesta! Fiesta! 女はいつでもそう、ワナノマリラ (¡Zumba!)<br/>
+            Te amo! Te amo! 今ならしたいことしていいわ<br/>
+            Te amo! Te amo! 早く連れ出して(¡Zumba!)<br/><br/>
+
+            シケた顔じゃ百年早い (¡Despacito!)<br/>
+            人目を気にして びびってないで<br/>
+            君のギラつく本性 覚醒さませ<br/><br/>
+
+            もっと 心に素直になっちゃいな<br/>
+            好きなもんは好き 盛り上がりゃいいじゃん<br/><br/>
+
+            今をはしゃごう 騒ごう 宴うたげは短い<br/>
+            夢も恋もためらったまま くすぶってないで<br/>
+            ほら、ここで弾けちゃおう! (¡Dímelo! ¡Dímelo! ¡Zumba...!)<br/><br/>
+
+            Fiesta! Fiesta! 情熱を解き放とう!<br/>
+            Fiesta! Fiesta! 女はいつでもそう、ワナノマリラ<br/>
+            Te amo! Te amo! 愛されたら綺麗になるの (¡Dale...!)<br/>
+            Te amo! Te amo! あとは君次第 (¡Dale duro, mami!)<br/><br/>
+
+            闇を照らす ド派手な音で<br/>
+            花火が華麗に燃え尽きてくよ<br/>
+            君といる今 輝きたいな<br/><br/>
+
+            100回キスするより大事なこと<br/>
+            ルージュ変えたの 気付いて褒めて<br/><br/>
+
+            風が甘く 耳をくすぐる 熱帯夜<br/>
+            君が熱く 吐息を絡め いつになく大胆<br/>
+            たくましく見えるから (¡Dame agua, mami!)<br/><br/>
+
+            Fiesta! Fiesta! 情熱を解き放とう！<br/>
+            Fiesta! Fiesta! 女はいつでもそう、ワナノマリラ (¡Ey! ¡Ey! ¡Zumba...!)<br/>
+            Te amo! Te amo! 今ならしたいことしていいわ<br/>
+            Te amo! Te amo! 早く連れ出して (¡Báilalo, mami!)<br/><br/>
+
+            Fiesta! Fiesta! 情熱を解き放とう！<br/>
+            Fiesta! Fiesta! 女はいつでもそう、ワナノマリラ<br/>
+            Te amo! Te amo! 愛されたら綺麗になるの<br/>
+            Te amo! Te amo! 早く連れ出して<br/><br/>
+
+            Quién tenga hambre<br/>
+            ¡Qué coma!<br/>
+            ¡Y pa' los que tienen sed!<br/>
+            Hay jugo pa' todos<br/><br/>
+
+            Pra k' pra! Dame jugo y vida<br/>
+            Déjame enseñarte que nuestras almas combinan<br/>
+            Zumba adentro voy pa' afuera<br/>
+            Te daré mamita todo lo que tu quieras<br/>
+            Fiesta y canción<br/>
+            Celebración<br/>
+            Gozo pa'l mundo desde Japón<br/>
+            ¿Para qué tanto rollo?<br/>
+            Mami tu me vuelves loco<br/>
+          </p>
+        </div>
+      )
+    }
     else{
       return(
         <div className="song-title">
